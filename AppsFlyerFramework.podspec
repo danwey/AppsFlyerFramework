@@ -33,4 +33,5 @@ Pod::Spec.new do |s|
     s.osx.preserve_paths = 'macOS/AppsFlyerAttribution.framework'
     s.osx.vendored_frameworks = 'macOS/AppsFlyerAttribution.framework'
 
+    s.vendored_frameworks = 'AppsFlyerLib.xcframework'
 end
